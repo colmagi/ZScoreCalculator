@@ -84,6 +84,7 @@ public class Main {
                 sb.append(c.medZScore + " ");
                 sb.append(c.meanZScore + " ");
                 sb.append(c.relativeSignal + " ");
+                sb.append(c.rawValue + " ");
                 sb.append(temp.getSmiles() + " ");
                 output.write(sb.toString());
                 output.write("\n");
